@@ -1,161 +1,144 @@
-<aside class="navbar navbar-vertical navbar-expand-lg navbar-dark">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <h1 class="navbar-brand navbar-brand-autodark">
-            <a href=".">
-                <img src="./static/logo-white.svg" width="110" height="32" alt="Tabler"
-                    class="navbar-brand-image">
-            </a>
-        </h1>
-        <div class="navbar-nav flex-row d-lg-none">
-            <div class="nav-item d-none d-md-flex me-3">
-                <div class="btn-list">
-                    <a href="https://github.com/tabler/tabler" class="btn" target="_blank" rel="noreferrer">
-                        <!-- Download SVG icon from http://tabler-icons.io/i/brand-github -->
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon text-github" width="24" height="24"
-                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path
-                                d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-                            </svg>
-                        Source code
-                    </a>
-                    <a href="https://github.com/sponsors/codecalm" class="btn" target="_blank" rel="noreferrer">
-                        <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon text-pink" width="24" height="24"
-                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path
-                                d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
-                            </svg>
-                        Sponsor
-                    </a>
-                </div>
-            </div>
-            <a href="?theme=dark" class="nav-link px-0 hide-theme-dark" title="Enable dark mode"
-                data-bs-toggle="tooltip" data-bs-placement="bottom">
-                <!-- Download SVG icon from http://tabler-icons.io/i/moon -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
-                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
-                    </svg>
-            </a>
-            <a href="?theme=light" class="nav-link px-0 hide-theme-light" title="Enable light mode"
-                data-bs-toggle="tooltip" data-bs-placement="bottom">
-                <!-- Download SVG icon from http://tabler-icons.io/i/sun -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
-                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <circle cx="12" cy="12" r="4" />
-                    <path
-                        d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />
-                    </svg>
-            </a>
-            <div class="nav-item dropdown d-none d-md-flex me-3">
-                <a href="#" class="nav-link px-0" data-bs-toggle="dropdown" tabindex="-1"
-                    aria-label="Show notifications">
-                    <!-- Download SVG icon from http://tabler-icons.io/i/bell -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                        viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path
-                            d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
-                        <path d="M9 17v1a3 3 0 0 0 6 0v-1" /></svg>
-                    <span class="badge bg-red"></span>
-                </a>
-                <div class="dropdown-menu dropdown-menu-end dropdown-menu-card">
-                    <div class="card">
-                        <div class="card-body">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad amet
-                            consectetur exercitationem fugiat in ipsa ipsum, natus odio quidem quod repudiandae
-                            sapiente. Amet debitis et magni maxime necessitatibus ullam.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="nav-item dropdown">
-                <a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown"
-                    aria-label="Open user menu">
-                    <span class="avatar avatar-sm"
-                        style="background-image: url(./static/avatars/000m.jpg)"></span>
-                    <div class="d-none d-xl-block ps-2">
-                        <div>Paweł Kuna</div>
-                        <div class="mt-1 small text-muted">UI Designer</div>
-                    </div>
-                </a>
-                <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                    <a href="#" class="dropdown-item">Set status</a>
-                    <a href="#" class="dropdown-item">Profile & account</a>
-                    <a href="#" class="dropdown-item">Feedback</a>
-                    <div class="dropdown-divider"></div>
-                    <a href="#" class="dropdown-item">Settings</a>
-                    <a href="#" class="dropdown-item">Logout</a>
-                </div>
-            </div>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-menu">
-            <ul class="navbar-nav pt-lg-3">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">
-                        <span class="nav-link-icon d-md-none d-lg-inline-block">
-                            <!-- Download SVG icon from http://tabler-icons.io/i/home -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dashboard" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <circle cx="12" cy="13" r="2"></circle>
-                                <line x1="13.45" y1="11.55" x2="15.5" y2="9.5"></line>
-                                <path d="M6.4 20a9 9 0 1 1 11.2 0z"></path></svg>
-                        </span>
-                        <span class="nav-link-title">
-                            Dashboard
-                        </span>
-                    </a>
+<div class="sidebar" id="sidebar">
+    <div class="sidebar-inner slimscroll">
+        <div id="sidebar-menu" class="sidebar-menu">
+            <ul>
+                <li class="active"> <a href="index.html"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a> </li>
+                <li class="list-divider"></li>
+                <li class="submenu"> <a href="#"><i class="fas fa-suitcase"></i><span> Booking </span> <span class="menu-arrow"></span></a>
+                    <ul class="submenu_class" style="display: none;">
+                        <li><a href="all-booking.html"> All Booking </a></li>
+                        <li><a href="edit-booking.html"> Edit Booking </a></li>
+                        <li><a href="add-booking.html"> Add Booking </a></li>
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./form-elements.html">
-                        <span class="nav-link-icon d-md-none d-lg-inline-block">
-                            <!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <polyline points="9 11 12 14 20 6" />
-                                <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
-                                </svg>
-                        </span>
-                        <span class="nav-link-title">
-                            Forms
-                        </span>
-                    </a>
+                <li class="submenu"> <a href="#"><i class="fas fa-user"></i> <span> Customers </span> <span class="menu-arrow"></span></a>
+                    <ul class="submenu_class" style="display: none;">
+                        <li><a href="all-customer.html"> All customers </a></li>
+                        <li><a href="edit-customer.html"> Edit Customer </a></li>
+                        <li><a href="add-customer.html"> Add Customer </a></li>
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./docs/index.html">
-                        <span class="nav-link-icon d-md-none d-lg-inline-block">
-                            <!-- Download SVG icon from http://tabler-icons.io/i/file-text -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path d="M14 3v4a1 1 0 0 0 1 1h4" />
-                                <path
-                                    d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
-                                <line x1="9" y1="9" x2="10" y2="9" />
-                                <line x1="9" y1="13" x2="15" y2="13" />
-                                <line x1="9" y1="17" x2="15" y2="17" /></svg>
-                        </span>
-                        <span class="nav-link-title">
-                            Documentation
-                        </span>
-                    </a>
+                <li class="submenu"> <a href="#"><i class="fas fa-key"></i> <span> Rooms </span> <span class="menu-arrow"></span></a>
+                    <ul class="submenu_class" style="display: none;">
+                        <li><a href="all-rooms.html">All Rooms </a></li>
+                        <li><a href="edit-room.html"> Edit Rooms </a></li>
+                        <li><a href="add-room.html"> Add Rooms </a></li>
+                    </ul>
+                </li>
+                <li class="submenu"> <a href="#"><i class="fas fa-user"></i> <span> Staff </span> <span class="menu-arrow"></span></a>
+                    <ul class="submenu_class" style="display: none;">
+                        <li><a href="all-staff.html">All Staff </a></li>
+                        <li><a href="edit-staff.html"> Edit Staff </a></li>
+                        <li><a href="add-staff.html"> Add Staff </a></li>
+                    </ul>
+                </li>
+                <li> <a href="pricing.html"><i class="far fa-money-bill-alt"></i> <span>Pricing</span></a> </li>
+                <li class="submenu"> <a href="#"><i class="fas fa-share-alt"></i> <span> Apps </span> <span class="menu-arrow"></span></a>
+                    <ul class="submenu_class" style="display: none;">
+                        <li><a href="chat.html"><i class="fas fa-comments"></i><span> Chat </span></a></li>
+                        <li class="submenu"> <a href="#"><i class="fas fa-video camera"></i> <span> Calls </span> <span class="menu-arrow"></span></a>
+                            <ul class="submenu_class" style="display: none;">
+                                <li><a href="voice-call.html"> Voice Call </a></li>
+                                <li><a href="video-call.html"> Video Call </a></li>
+                                <li><a href="incoming-call.html"> Incoming Call </a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu"> <a href="#"><i class="fas fa-envelope"></i> <span> Email </span> <span class="menu-arrow"></span></a>
+                            <ul class="submenu_class" style="display: none;">
+                                <li><a href="compose.html">Compose Mail </a></li>
+                                <li><a href="inbox.html"> Inbox </a></li>
+                                <li><a href="mail-veiw.html"> Mail Veiw </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="submenu"> <a href="#"><i class="fas fa-user"></i> <span> Employees </span> <span class="menu-arrow"></span></a>
+                    <ul class="submenu_class" style="display: none;">
+                        <li><a href="employees.html">Employees List </a></li>
+                        <li><a href="leaves.html">Leaves </a></li>
+                        <li><a href="holidays.html">Holidays </a></li>
+                        <li><a href="attendance.html">Attendance </a></li>
+                    </ul>
+                </li>
+                <li class="submenu"> <a href="#"><i class="far fa-money-bill-alt"></i> <span> Accounts </span> <span class="menu-arrow"></span></a>
+                    <ul class="submenu_class" style="display: none;">
+                        <li><a href="invoices.html">Invoices </a></li>
+                        <li><a href="payments.html">Payments </a></li>
+                        <li><a href="expenses.html">Expenses </a></li>
+                        <li><a href="taxes.html">Taxes </a></li>
+                        <li><a href="provident-fund.html">Provident Fund </a></li>
+                    </ul>
+                </li>
+                <li class="submenu"> <a href="#"><i class="fas fa-book"></i> <span> Payroll </span> <span class="menu-arrow"></span></a>
+                    <ul class="submenu_class" style="display: none;">
+                        <li><a href="salary.html">Employee Salary </a></li>
+                        <li><a href="salary-veiw.html">Payslip </a></li>
+                    </ul>
+                </li>
+                <li> <a href="calendar.html"><i class="fas fa-calendar-alt"></i> <span>Calendar</span></a> </li>
+                <li class="submenu"> <a href="#"><i class="fe fe-table"></i> <span> Blog </span> <span class="menu-arrow"></span></a>
+                    <ul class="submenu_class" style="display: none;">
+                        <li><a href="blog.html">Blog </a></li>
+                        <li><a href="blog-details.html">Blog Veiw </a></li>
+                        <li><a href="add-blog.html">Add Blog </a></li>
+                        <li><a href="edit-blog.html">Edit Blog </a></li>
+                    </ul>
+                </li>
+                <li> <a href="assets.html"><i class="fas fa-cube"></i> <span>Assests</span></a> </li>
+                <li> <a href="activities.html"><i class="far fa-bell"></i> <span>Activities</span></a> </li>
+                <li class="submenu"> <a href="#"><i class="fe fe-table"></i> <span> Reports </span> <span class="menu-arrow"></span></a>
+                    <ul class="submenu_class" style="display: none;">
+                        <li><a href="expense-reports.html">Expense Report </a></li>
+                        <li><a href="invoice-reports.html">Invoice Report </a></li>
+                    </ul>
+                </li>
+                <li> <a href="settings.html"><i class="fas fa-cog"></i> <span>Settings</span></a> </li>
+                <li class="list-divider"></li>
+                <li class="menu-title mt-3"> <span>UI ELEMENTS</span> </li>
+                <li class="submenu"> <a href="#"><i class="fas fa-laptop"></i> <span> Components </span> <span class="menu-arrow"></span></a>
+                    <ul class="submenu_class" style="display: none;">
+                        <li><a href="uikit.html">UI Kit </a></li>
+                        <li><a href="typography.html">Typography </a></li>
+                        <li><a href="tabs.html">Tabs </a></li>
+                    </ul>
+                </li>
+                <li class="submenu"> <a href="#"><i class="fas fa-edit"></i> <span> Forms </span> <span class="menu-arrow"></span></a>
+                    <ul class="submenu_class" style="display: none;">
+                        <li><a href="form-basic-inputs.html">Basic Input </a></li>
+                        <li><a href="form-input-groups.html">Input Groups </a></li>
+                        <li><a href="form-horizontal.html">Horizontal Form </a></li>
+                        <li><a href="form-vertical.html">Vertical Form </a></li>
+                    </ul>
+                </li>
+                <li class="submenu"> <a href="#"><i class="fas fa-table"></i> <span> Tables </span> <span class="menu-arrow"></span></a>
+                    <ul class="submenu_class" style="display: none;">
+                        <li><a href="tables-basic.html">Basic Table </a></li>
+                        <li><a href="tables-datatables.html">Data Table </a></li>
+                    </ul>
+                </li>
+                <li class="list-divider"></li>
+                <li class="menu-title mt-3"> <span>EXTRAS</span> </li>
+                <li class="submenu"> <a href="#"><i class="fas fa-columns"></i> <span> Pages </span> <span class="menu-arrow"></span></a>
+                    <ul class="submenu_class" style="display: none;">
+                        <li><a href="login.html">Login </a></li>
+                        <li><a href="register.html">Register </a></li>
+                        <li><a href="forgot-password.html">Forgot Password </a></li>
+                        <li><a href="change-password.html">Change Password </a></li>
+                        <li><a href="lock-screen.html">Lockscreen </a></li>
+                        <li><a href="profile.html">Profile </a></li>
+                        <li><a href="gallery.html">Gallery </a></li>
+                        <li><a href="error-404.html">404 Error </a></li>
+                        <li><a href="error-500.html">500 Error </a></li>
+                        <li><a href="blank-page.html">Blank Page </a></li>
+                    </ul>
+                </li>
+                <li class="submenu"> <a href="#"><i class="fas fa-share-alt"></i> <span> Multi Level </span> <span class="menu-arrow"></span></a>
+                    <ul class="submenu_class" style="display: none;">
+                        <li><a href="">Level 1 </a></li>
+                        <li><a href="">Level 2 </a></li>
+                    </ul>
                 </li>
             </ul>
         </div>
     </div>
-</aside>
+</div>

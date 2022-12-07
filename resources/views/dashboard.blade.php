@@ -14,4 +14,6 @@
             </div>
         </div>
     </div>
+
+    @include('dashboard.detail')
 </x-app-layout>

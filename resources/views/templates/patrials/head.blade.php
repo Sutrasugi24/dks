@@ -3,8 +3,8 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 <title>Dashboard - Tabler - Premium and Open Source dashboard template with responsive and high quality UI.</title>
 <!-- CSS files -->
-<link href="./dist/css/tabler.min.css" rel="stylesheet" />
-<link href="./dist/css/tabler-flags.min.css" rel="stylesheet" />
-<link href="./dist/css/tabler-payments.min.css" rel="stylesheet" />
-<link href="./dist/css/tabler-vendors.min.css" rel="stylesheet" />
-<link href="./dist/css/demo.min.css" rel="stylesheet" />
+<link href="./dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="./dist/css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+<link href="./dist/css/feathericon.min.css" rel="stylesheet" />
+<link href="./dist/css/select2.min.css" rel="stylesheet" />
+<link href="./dist/css/style.css" rel="stylesheet" />
