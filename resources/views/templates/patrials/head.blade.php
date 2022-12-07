@@ -7,4 +7,4 @@
 <link href="./dist/css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
 <link href="./dist/css/feathericon.min.css" rel="stylesheet" />
 <link href="./dist/css/select2.min.css" rel="stylesheet" />
-<link href="./dist/css/style.css" rel="stylesheet" />
+@vite(['resources/css/app.css','resources/js/app.js'])
